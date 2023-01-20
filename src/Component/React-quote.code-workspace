@@ -1,0 +1,18 @@
+{
+  "folders": [
+	{
+		"path": "../../.."
+	},
+	{
+		"name": "Onyi",
+		"path": "../../../Onyi"
+	},
+	{
+		"name": "Onyi",
+		"path": "../../../../Assignments/Onyi"
+	}
+],
+  "settings": {
+    "git.ignoreLimitWarning": true
+  }
+}

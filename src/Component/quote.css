@@ -1,0 +1,57 @@
+.container{
+background-image: linear-gradient(rgba(2, 248, 252, 0.62), rgba(117, 17, 74, 0.686)), url('../Assets/bg.jpg');
+background-position: center;
+background-size: cover;
+height: 100vh;
+justify-content: center;
+align-items: center;
+text-align: center;
+display: flex;
+}
+.quote-box{
+    background-color: whitesmoke;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    height: 31%;
+    border-radius: 2rem;
+    box-shadow: 3px 3px 3px 2px rgba(2, 248, 252, 0.32);
+}
+.quote{
+    display: flex;
+    padding: 15px;
+    height: 451px;
+    font-family: 'Lato', sans-serif;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button{
+    width: 211px;
+    height: 3rem;
+    text-transform: uppercase;
+    max-width: max-content;
+    min-width: 55px;
+    padding: 1rem;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 2rem;
+    background-color: rgba(2, 248, 252, 0.32);   
+outline: none;
+    border-radius: 1rem;
+}
+button:hover{
+    transition: all linear .5s;
+    background-color: aqua;
+    cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+ .quote-box{
+    width: 80%;
+    height: 40%;
+    max-width: 355px;
+    min-height: max-content;
+ }   
+}
